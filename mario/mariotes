@@ -1,0 +1,83 @@
+
+h1{
+    font-family: Pixel Emulator;
+    position:relative;
+    top: 50%;
+    left: 4%;
+    font-size: 340%;
+    color: saddlebrown;
+}
+h2{
+    font-family: Pixel Emulator;
+    position:relative;
+    top: 45%;
+    left: 6%;
+    font-size: 160%; 
+    color: saddlebrown;
+}
+    h3{
+    font-family: Pixel Emulator;
+    position:relative;
+    top: 45%;
+    left: 6%;
+    font-size: 160%; 
+    color: saddlebrown;
+        
+    }
+}
+.hide{
+    display: none;
+    position: relative;
+    bottom: 464px;
+    left: 690px;
+    
+}
+#figures:hover + .hide{
+    display: block;
+}
+
+#figures{
+    position: relative;
+    left: 52%;
+    bottom: 380px;
+}
+#history{
+    position: relative;
+    left: 75%;
+    bottom: 180px;
+    
+}
+#check{
+   position: relative;
+    top:40%; 
+    left: 55%;
+}
+#move{
+    position: relative;
+    bottom: 100px;
+    left: 90%;
+}
+#pipe{
+    position: relative;
+    left: 90%;
+    bottom:  400px;
+    display: none;
+   
+}
+#move:hover + #pipe{
+        display: block;
+}
+#block{
+border: forestgreen solid 2px;
+    width: 40%;
+     font-family: Pixel Emulator;
+    font-size: 88%; 
+    color: forestgreen;
+    padding: 12px; 
+}
+
+#mosh {
+    position: relative;
+    left: 5%;  
+    top: 360px;
+}

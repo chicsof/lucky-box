@@ -1,0 +1,10 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="mario2.css" type="text/css">
+        <script language="javascript" type="text/javascript" src="mario.js"></script>  
+</head>
+    <audio id="welcomeSound"  controls="controls"  preload="auto">
+		<source src="effect.wav"></source>
+    </audio>
+    <body>
+<title>
