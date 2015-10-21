@@ -3,6 +3,15 @@
 <head>
 	<title>Index.html</title>
 	<link rel="stylesheet" href="css/stylesheet.css">
+	<script type="text/javascript">
+		var slideImage = new Array();
+			slideImage[0] = new Image();
+			slideImage[0].src = "img/0.png";
+			slideImage[1] = new Image();
+			slideImage[1].src = "img/1.jpg";
+			slideImage[2] = new Image();
+			slideImage[2].src = "img/2.jpg"
+</script>
 </head>
 <body>
 	<header>
@@ -22,9 +31,8 @@
 					<div class="left">
 						<button type="submit" id="login_form_button">Login</button>
 					</div>
-				
+				<p class="right">&nbsp Register.</p>
 			</form>
-		<p class="right">&nbspRegister.</p>
 		</div>
 	</header>
 	    <!-- NAVIGATION BAR CONFIGURATION -->
@@ -54,10 +62,42 @@
         </nav>
         <!-- END OF NAVIGATION BAR CONFIGURATION -->
 	<section>
-		<p>Main content</p>
+		<p id ="changeSlideTake">Left</p>
+		<img src="img/0.png" id="slide" width="" height="" />
+		<p id="changeSlideAdd">Right</p>
+
 	</section>
 	<footer>
 		<p>Footer</p>
 	</footer>
+
+	<script type="text/javascript">
+		var step=0;
+		var changeSlideAdd = document.getElementById('changeSlideAdd');
+		changeSlideAdd.addEventListener("click",function(){
+			console.log("clicked");
+			document.getElementById('slide').src = slideImage[step].src;
+			console.log(slide);
+			if (step < 2)
+				step++;
+			else
+				step=0;
+		});
+
+		var changeSlideTake = document.getElementById('changeSlideTake');
+		changeSlideTake.addEventListener("click",function(){
+			console.log("clicked");
+			document.getElementById('slide').src = slideImage[step].src;
+			console.log(slide);
+			console.log(step);
+			if (step > 0)
+				step--;
+			else
+				step = 2;
+		});
+
+
+	</script>
+
 </body>
 </html>
