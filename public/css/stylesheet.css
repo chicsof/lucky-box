@@ -36,7 +36,7 @@ header {
 	color: #FFFFFF;
 	height: 30px;
 	width: 100%;
-	background: #768489;;
+	background: #4C4B4C;;
 }
 
 nav {
@@ -50,11 +50,12 @@ footer{
 	color: #FFFFFF;
 	width: 100%;
 	text-align: center;
-	background: #768489;
+	background: #4C4B4C;
 	height: 60px;
 }
  body {
  	font-family: 'pixel_emulatorregular';
+    background-image: url("../img/syudJMa.png");
  }
 
 /*
@@ -119,8 +120,7 @@ Navbar - petyo
 }
 
 .naviitem:hover {
-    background-color: #768489;
-    color:black;
+    background-color: #2187DB;
 }
 
 /*
@@ -151,7 +151,9 @@ IDs
     height: 400px;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
+    background: #F3F5E8;
+    
 }
 
 
@@ -172,14 +174,14 @@ IDs
 
 #subscribeButton {
     margin-top: 20px;
-    border: 5px solid #36DFFF;
+    border: 5px solid #2187DB;
     padding: 10px;
-    background: #36DFFF;
+    background: #2187DB;
     width: 150px;
 }
 
 #subscribeButton:hover {
-    border: 5px solid #36DFFF;
+    border: 5px solid #2187DB;
     padding: 10px;
     background: #FFFFFF;
     width: 150px;
@@ -222,6 +224,30 @@ IDs
 #luckyBoxLogo {
     margin: 15px 0px 0px 15px;
 }
+
+#subscribeLink {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+#subscribeLink:hover {
+    text-decoration: none;
+    color:#2187DB;
+}
+#subscribeLink:visited {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+#homeContentText {
+    font-family: courier;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background: #FFFFFF;
+    border: solid 5px #868383;
+    margin-bottom: 10px;
+}
 /*
 =======================
 Class selectors
@@ -229,10 +255,11 @@ Class selectors
 */
 
 .mainContent {
-	width: 100%;
-	height: 100%;
-	background: #1C2120;
-	background: linear-gradient(to right, #FFFFFF, #FBFFFA 85%, #FFFAFE);
+    margin-left: auto;
+    margin-right: auto;
+	width: 70%;
+	background: #F3F5E8;
+	
 }
 
 .centerElement {
@@ -243,3 +270,4 @@ Class selectors
 .centerText {
     text-align: center;
 }
+
