@@ -115,7 +115,6 @@ Navbar - petyo
     color: #fff;
     text-decoration: none;
     font-size: 20px;
-    font-family:Pixel Emulator;
 }
 
 .naviitem:hover {
@@ -188,4 +187,9 @@ Class selectors
 
 .centerText {
     text-align: center;
+}
+#box{
+    width: 5%;
+    position:absolute;
+    top:5%;
 }
