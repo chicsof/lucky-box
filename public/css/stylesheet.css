@@ -130,6 +130,11 @@ Forms
 	size:"5";
 }
 
+
+#subscriptionForm {
+    margin: 0 auto;
+    width: 40%;
+}
 /*
 =======================
 IDs
@@ -185,6 +190,36 @@ IDs
 #twitterLogo{
     margin: 0px 5px 0px 0px;
 }
+
+#levelOne {
+    height: 200px;
+    float: left;
+    width: 30%;
+    background:#36DFFF;
+}
+
+#levelTwo {
+    height: 200px;
+    float: left;
+    width: 30%;
+    background:#36DFFF;
+}
+
+#levelThree {
+    height: 200px;
+    float: left;
+    width: 30%;
+    background:#36DFFF;
+}
+
+#subscription_info {
+    margin-top: 50px;
+    width: 90%;
+}
+
+#luckyBoxLogo {
+    margin: 15px 0px 0px 15px;
+}
 /*
 =======================
 Class selectors
@@ -201,7 +236,6 @@ Class selectors
 .centerElement {
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .centerText {
