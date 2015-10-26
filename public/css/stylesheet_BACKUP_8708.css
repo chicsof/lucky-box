@@ -230,8 +230,13 @@ Class selectors
 
 .mainContent {
 	width: 100%;
+<<<<<<< HEAD
 	height: 100%;
 	background: #1C2120;
+=======
+	height: 500px;
+	background: #576063;
+>>>>>>> a4a531076697e37afe48f45cd1e52b376aa5a993
 	background: linear-gradient(to right, #FFFFFF, #FBFFFA 85%, #FFFAFE);
 }
 

@@ -1,28 +1,29 @@
 
 #title{
  font-family: Pixel Emulator;
- font-size: 330%;
+ font-size: 200%;
  color: saddlebrown;
- position:relative;
- top: 35%;
+ position:absolute;
+ top: 50%;
  left: 4%;
 }
 h3{
-  font-size: 80%; 
-  position:relative;
-  left: 1%;
-  top: 80px;
+  font-size: 70%; 
+  position:absolute;
+  left: 10%;
+  top: 80%;
 }
 h2{
-    font-size: 110%;
-    position:relative;
-    left: 2%;
-    bottom: 70px;
+    font-size: 100%;
+    position:absolute;
+    left: 10%;
+    bottom: 72%;
 }
 #title img{
-    position: relative;
-    bottom: 200px;
-    left:8%;
+    position: absolute;
+    bottom:-130%;
+    left:30%;
+    width: 35%;
 }
 
 #hide,#hide1,#hide2{
@@ -30,20 +31,21 @@ h2{
 }
 #hide p,#hide1 p,#hide2 p{
     border: saddlebrown solid 2px;
-    width: 40%;
+    width: 90%;
     font-family: Pixel Emulator;
-    font-size: 140%; 
+    font-size: 80%; 
     color: saddlebrown;
     padding: 12px; 
 }
 #pipe,#pipe2{
-    position: relative;
+    position: absolute;
     left:90%;
+    bottom: -10%;
 }
 #pipe2{
-   position: relative;
-   bottom: 24%;
+   position: absolute;
    display: none;
+   
 }
 #figures:hover + #hide{
     display:block;
@@ -58,46 +60,47 @@ h2{
     display: block;
 }
 #figures{
-   position: relative;
-    bottom: 40%;
-    left: 50%;
+   position: absolute;
+    bottom: 80%;
+    left: 70%;
 }
 #history{
-   position: relative;
+   position: absolute;
     bottom: 20%;
-    left: 80%; 
+    left: 60%; 
 }
 #check{
-    position: relative;
-    bottom: 1%;
+    position: absolute;
+    bottom: 55%;
     left: 50%;
 }
 #hide{
-    position: relative;
-    bottom: 49%;
-    left: 50%;
+    position: absolute;
+    bottom: 42%;
+    left: 70%;
 }
 #hide1{
-    position: relative;
-    bottom: 30%;
-    left: 80%; 
+    position: absolute;
+    bottom: -3%;
+    left: 60%; 
 }
 #hide2{
-    position: relative;
-    bottom: 11%;
+    position: absolute;
+    bottom: 45%;
     left: 50%;
 }
 #bottom{
     font-family: Pixel Emulator;
-    position: relative;
+    position: absolute;
     left:89%;
-    bottom: 22%;
-    font-size: 160%;
+    bottom: 29%;
+    font-size: 120%;
     color: forestgreen;
     background-color: white;
 }
 body{
     background-image: url(images/fina.jpg);
-    
+    font-family: Pixel Emulator;
 }
+
   
