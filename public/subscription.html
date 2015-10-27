@@ -53,42 +53,44 @@
         </nav>
         <!-- END OF NAVIGATION BAR CONFIGURATION -->
 	<section class="mainContent">
-		<div id="subscription_info" class="centerElement">
-			<div id="levelOne" class="centerText">
-				<p>Level One</p>
+		<div id="subscription_info">
+			<div class="centerText levelText">
+				<p class="subHeader">Level One</p>
 				<p>A one month subscription that costs &pound25. This is our entry level package, for users who are new to our service or just really want that months box!</p>
 			</div>
-			<div id="levelTwo" class="centerText">
-				<p>Level Two</p>
+			<div class="centerText levelText">
+				<p class="subHeader">Level Two</p>
 				<p>A three month subscription that costs &pound60. Thats &pound20 A month, saving you &pound15 over buying monthly. This package is for our dedicated users who enjoy our boxes and what we do!</p>
 			</div>
-			<div id="levelThree" class="centerText">
+			<div class="centerText levelText">
 				<p class="subHeader">Level Three</p>
 				<p>An entire year subscription that costs &pound200. Saving you &pound100 over buying monthly. We will also include extra power ups, such as special limited boxes or extra goodies!</p>
 			</div>
 		</div>
-		<p class="centerText clear"> Please choose A subscription.</p></br>
-		<form id ="subscriptionForm" action="" method="post">	
-			<div>
-				<label for="subscriptionLevel">Subscription level</label>
-				<select name = "subscriptionLevel">
-					<option value="1month">One Month</option>
-					<option value="3month">Three Months</option>
-					<option value="1year">One Year</option>
-				</select>
-			</div>
-			<div>
-				<label for="paymentMethod">Payment Method</label>
-				<select name = "paymentMethod">
-					<option value="visa">Visa</option>
-					<option value="mastercard">Mastercard</option>
-					<option value="debitCard">Debitcard</option>
-				</select>
-			</div>
-			<div>
-				<button type="submit" id="form-button">Submit</button>
-			</div>
-		</form>
+		<div id="subscriptionFormHolder">
+			<p class="centerText clear"> Please choose A subscription.</p></br>
+			<form id ="subscriptionForm" action="" method="post">	
+				<div>
+					<label for="subscriptionLevel">Subscription level</label>
+					<select name = "subscriptionLevel">
+						<option value="1month">One Month</option>
+						<option value="3month">Three Months</option>
+						<option value="1year">One Year</option>
+					</select>
+				</div>
+				<div>
+					<label for="paymentMethod">Payment Method</label>
+					<select name = "paymentMethod">
+						<option value="visa">Visa</option>
+						<option value="mastercard">Mastercard</option>
+						<option value="debitCard">Debitcard</option>
+					</select>
+				</div>
+				<div>
+					<button type="submit" id="form-button">Submit</button>
+				</div>
+			</form>
+		</div>
 	</section>
 
 	</section>

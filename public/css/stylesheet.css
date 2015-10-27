@@ -153,7 +153,7 @@ IDs
     margin-right: auto;
     width: 100%;
     background: #F3F5E8;
-    
+
 }
 
 
@@ -195,30 +195,10 @@ IDs
     margin: 0px 5px 0px 0px;
 }
 
-#levelOne {
-    height: 200px;
-    float: left;
-    width: 30%;
-    background:#36DFFF;
-}
 
-#levelTwo {
-    height: 200px;
-    float: left;
-    width: 30%;
-    background:#36DFFF;
-}
-
-#levelThree {
-    height: 200px;
-    float: left;
-    width: 30%;
-    background:#36DFFF;
-}
-
-#subscription_info {
-    margin-top: 50px;
-    width: 90%;
+#subscriptionInfo {
+    width: 100%;
+    text-align: center;
 }
 
 #luckyBoxLogo {
@@ -226,6 +206,7 @@ IDs
 }
 
 #subscribeLink {
+    /*padding: 13px 6px 13px 6px;*/
     text-decoration: none;
     color:#FFFFFF;
 }
@@ -244,8 +225,8 @@ IDs
     margin-left: auto;
     margin-right: auto;
     width: 70%;
-    background: #FFFFFF;
-    border: solid 5px #868383;
+    background: #F3F5E8;
+    border: solid 5px #2187DB;
     margin-bottom: 10px;
 }
 /*
@@ -271,3 +252,17 @@ Class selectors
     text-align: center;
 }
 
+.levelText {
+    margin-top: 50px;
+    font-family: courier;
+    height: 250px;
+    display: inline-block;
+    width: 30%;
+    border: solid 5px #2187DB;
+}
+
+.subHeader {
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
