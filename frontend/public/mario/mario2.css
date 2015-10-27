@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'pixel_emulatorregular';
+    src: url('../css/pixel_emulator-webfont.eot');
+    src: url('pixel_emulator-webfont.eot?#iefix') format('embedded-opentype'),
+         url('pixel_emulator-webfont.woff2') format('woff2'),
+         url('pixel_emulator-webfont.woff') format('woff'),
+         url('../css/pixel_emulator-webfont.ttf') format('truetype'),
+         url('pixel_emulator-webfont.svg#pixel_emulatorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#title{
+ font-family:'pixel_emulatorregular';
+ font-size: 200%;
+ color: saddlebrown;
+ position:absolute;
+ top: 50%;
+ left: 4%;
+}
+h3{
+  font-size: 70%; 
+  position:absolute;
+  left: 10%;
+  top: 80%;
+}
+h2{
+    font-size: 100%;
+    position:absolute;
+    left: 10%;
+    bottom: 72%;
+}
+#title img{
+    position: absolute;
+    bottom:-130%;
+    left:30%;
+    width: 35%;
+}
+
+#hide,#hide1,#hide2{
+    display: none;
+}
+#hide p,#hide1 p,#hide2 p{
+    border: saddlebrown solid 2px;
+    width: 90%;
+    font-family: 'pixel_emulatorregular';
+    font-size: 80%; 
+    color: saddlebrown;
+    padding: 12px; 
+}
+#pipe,#pipe2{
+    position: absolute;
+    left:90%;
+    bottom: -10%;
+}
+#pipe2{
+   position: absolute;
+   display: none;
+   
+}
+#figures:hover + #hide{
+    display:block;
+}
+#history:hover + #hide1{
+    display: block;
+}
+#check:hover + #hide2{
+    display: block;
+}
+#pipe:hover + #pipe2{
+    display: block;
+}
+#figures{
+   position: absolute;
+    bottom: 80%;
+    left: 70%;
+}
+#history{
+   position: absolute;
+    bottom: 20%;
+    left: 60%; 
+}
+#check{
+    position: absolute;
+    bottom: 55%;
+    left: 50%;
+}
+#hide{
+    position: absolute;
+    bottom: 42%;
+    left: 70%;
+}
+#hide1{
+    position: absolute;
+    bottom: -3%;
+    left: 60%; 
+}
+#hide2{
+    position: absolute;
+    bottom: 45%;
+    left: 50%;
+}
+#bottom{
+    font-family: 'pixel_emulatorregular';
+    position: absolute;
+    left:89%;
+    bottom: 29%;
+    font-size: 120%;
+    color: forestgreen;
+    background-color: white;
+}
+body{
+    background-image: url(images/fina.jpg);
+    font-family: 'pixel_emulatorregular';
+}
+
+  
