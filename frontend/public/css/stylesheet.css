@@ -1,0 +1,294 @@
+/*
+=======================
+Custom Font
+=======================
+*/
+
+@font-face {
+    font-family: 'pixel_emulatorregular';
+    src: url('pixel_emulator-webfont.eot');
+    src: url('pixel_emulator-webfont.eot?#iefix') format('embedded-opentype'),
+         url('pixel_emulator-webfont.woff2') format('woff2'),
+         url('pixel_emulator-webfont.woff') format('woff'),
+         url('pixel_emulator-webfont.ttf') format('truetype'),
+         url('pixel_emulator-webfont.svg#pixel_emulatorregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*
+=======================
+Tag selectors
+=======================
+*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+	-moz-box-sizing: border-box;
+    	box-sizing: border-box;
+    }
+
+header {
+	padding: 5px 5px 0px 5px;
+	color: #FFFFFF;
+	height: 30px;
+	width: 100%;
+	background: #4C4B4C;;
+}
+
+nav {
+	width: 100%;
+	background: #FFF1F1;
+	color: #040303;
+}
+
+
+footer{
+	color: #FFFFFF;
+	width: 100%;
+	text-align: center;
+	background: #4C4B4C;
+	height: 60px;
+}
+ body {
+ 	font-family: 'pixel_emulatorregular';
+    background-image: url("../img/syudJMa.png");
+ }
+
+/*
+=======================
+Floats
+=======================
+*/
+
+.left {
+	float: left;
+}
+
+.right { 
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+/*
+=======================
+Navbar - petyo
+=======================
+*/
+.navimain {
+    width: 100%;
+    background-color: #222;
+    height: 70px;
+    color: #fff;
+}
+
+.navimain .logo{
+    float: left;
+    height: 50px;
+    padding: 15px 30px;
+    font-size: 40px;
+    line-height: 40px;
+}
+
+.navimain > ul {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type:none;
+}
+
+.navimain > ul > li{
+    float: left;
+
+}
+
+.naviitem {
+    display: inline-block;
+    padding: 15px 30px;
+    height: 70px;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-family:'pixel_emulatorregular';
+}
+
+.naviitem:hover {
+    background-color: #2187DB;
+}
+
+
+/*=====================
+ / Bradley - Contact Us
+=======================
+*/
+.formBorder {
+    padding:8%;
+    margin:2%;
+    border:1px solid black;
+    background-color: #2187DB;
+}
+a {
+    text-decoration: none;
+    color: #2187DB;
+}
+
+#formHolder {
+    width: 325px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*
+=======================
+Forms
+=======================
+*/
+#login_username {
+	size:"5";
+}
+
+
+#subscriptionForm {
+    margin: 0 auto;
+    width: 40%;
+}
+
+/*
+=======================
+IDs
+=======================
+*/
+
+#welcomeText {
+    padding:20px;
+    font-size: 32px;
+}
+#slideshowContent {
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    background: #F3F5E8;
+
+}
+
+
+#slide {
+    margin: 0 auto;
+    display: block;
+}
+
+#changeSlideAdd {
+    margin-top: 150px;
+    height:50px;
+}
+
+#changeSlideTake {
+    margin-top: 150px;
+    height:50px;
+}
+
+#subscribeButton {
+    display:inline;
+    margin-top: 20px;
+    border: 5px solid #2187DB;
+    padding: 10px;
+    background: #2187DB;
+    width: 150px;
+}
+
+#subscribeButton:hover {
+    border: 5px solid #2187DB;
+    padding: 10px;
+    background: #FFFFFF;
+    width: 150px;
+}
+
+#facebookLogo{
+    margin: 0px 5px 0px 5px;
+}
+
+#twitterLogo{
+    margin: 0px 5px 0px 0px;
+}
+
+
+#subscriptionInfo {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#luckyBoxLogo {
+    margin: 15px 0px 0px 15px;
+}
+
+#subscribeLink {
+    /*padding: 13px 6px 13px 6px;*/
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+#subscribeLink:hover {
+    text-decoration: none;
+    color:#2187DB;
+}
+#subscribeLink:visited {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+#homeContentText {
+    font-family: courier;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background: #F3F5E8;
+    border: solid 5px #2187DB;
+    margin-bottom: 10px;
+}
+/*
+=======================
+Class selectors
+=======================
+*/
+
+.mainContent {
+    margin-left: auto;
+    margin-right: auto;
+	width: 70%;
+	background: #F3F5E8;
+	
+}
+
+.centerElement {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerText {
+    text-align: center;
+}
+
+.levelText {
+    /*margin-top: 50px;*/
+    font-family: courier;
+    height: 250px;
+    float: left;
+    width: 30%;
+    border: solid 5px #2187DB;
+}
+
+.subHeader {
+    font-weight: 900;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
