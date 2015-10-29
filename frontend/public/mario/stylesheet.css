@@ -36,7 +36,7 @@ header {
 	color: #FFFFFF;
 	height: 30px;
 	width: 100%;
-	background: #768489;;
+	background: #4C4B4C;;
 }
 
 nav {
@@ -50,11 +50,12 @@ footer{
 	color: #FFFFFF;
 	width: 100%;
 	text-align: center;
-	background: #768489;
+	background: #4C4B4C;
 	height: 60px;
 }
  body {
  	font-family: 'pixel_emulatorregular';
+    background-image: url("../img/syudJMa.png");
  }
 
 /*
@@ -84,7 +85,7 @@ Navbar - petyo
     width: 100%;
     background-color: #222;
     height: 70px;
-    color: #fff
+    color: #fff;
 }
 
 .navimain .logo{
@@ -115,13 +116,36 @@ Navbar - petyo
     color: #fff;
     text-decoration: none;
     font-size: 20px;
+    font-family:'pixel_emulatorregular';
 }
 
 .naviitem:hover {
-    background-color: #768489;
-    color:black;
+    background-color: #2187DB;
 }
 
+
+/*=====================
+ / Bradley - Contact Us
+=======================
+*/
+.formBorder {
+    padding:8%;
+    margin:2%;
+    border:1px solid black;
+    background-color: #2187DB;
+}
+a {
+    text-decoration: none;
+    color: #2187DB;
+}
+
+#formHolder {
+    width: 325px;
+    margin-top:20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*
 =======================
 Forms
@@ -131,9 +155,14 @@ Forms
 	size:"5";
 }
 
+<<<<<<< HEAD
+=======
 
-
-
+#subscriptionForm {
+    margin: 0 auto;
+    width: 40%;
+}
+>>>>>>> af1a6ecc25ab42b3c8ab76d8e2b04316da8e9f76
 /*
 =======================
 IDs
@@ -145,10 +174,12 @@ IDs
     font-size: 32px;
 }
 #slideshowContent {
-    height: 500px;
+    height: 400px;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
+    background: #F3F5E8;
+    
 }
 
 
@@ -158,13 +189,90 @@ IDs
 }
 
 #changeSlideAdd {
-    padding-top: 250px;
-    padding-bottom: 250px;
+    margin-top: 150px;
+    height:50px;
 }
 
 #changeSlideTake {
-    padding-top: 250px;
-    padding-bottom: 250px;
+    margin-top: 150px;
+    height:50px;
+}
+
+#subscribeButton {
+    margin-top: 20px;
+    border: 5px solid #2187DB;
+    padding: 10px;
+    background: #2187DB;
+    width: 150px;
+}
+
+#subscribeButton:hover {
+    border: 5px solid #2187DB;
+    padding: 10px;
+    background: #FFFFFF;
+    width: 150px;
+}
+
+#facebookLogo{
+    margin: 0px 5px 0px 5px;
+}
+
+#twitterLogo{
+    margin: 0px 5px 0px 0px;
+}
+
+#levelOne {
+    height: 200px;
+    float: left;
+    width: 30%;
+    background:#36DFFF;
+}
+
+#levelTwo {
+    height: 200px;
+    float: left;
+    width: 30%;
+    background:#36DFFF;
+}
+
+#levelThree {
+    height: 200px;
+    float: left;
+    width: 30%;
+    background:#36DFFF;
+}
+
+#subscription_info {
+    margin-top: 50px;
+    width: 90%;
+}
+
+#luckyBoxLogo {
+    margin: 15px 0px 0px 15px;
+}
+
+#subscribeLink {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+#subscribeLink:hover {
+    text-decoration: none;
+    color:#2187DB;
+}
+#subscribeLink:visited {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+#homeContentText {
+    font-family: courier;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    background: #FFFFFF;
+    border: solid 5px #868383;
+    margin-bottom: 10px;
 }
 /*
 =======================
@@ -173,23 +281,23 @@ Class selectors
 */
 
 .mainContent {
-	width: 100%;
-	height: 500px;
-	background: #576063;
-	background: linear-gradient(to right, #FFFFFF, #FBFFFA 85%, #FFFAFE);
+    margin-left: auto;
+    margin-right: auto;
+	width: 70%;
+	background: #F3F5E8;
+	
 }
 
 .centerElement {
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .centerText {
     text-align: center;
 }
-#box{
-    width: 5%;
-    position:absolute;
-    top:5%;
-}
+<<<<<<< HEAD
+      
+=======
+
+>>>>>>> af1a6ecc25ab42b3c8ab76d8e2b04316da8e9f76

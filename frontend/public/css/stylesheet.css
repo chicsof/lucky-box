@@ -155,7 +155,6 @@ Forms
 	size:"5";
 }
 
-
 #subscriptionForm {
     margin: 0 auto;
     width: 40%;
@@ -255,6 +254,21 @@ IDs
     border: solid 5px #2187DB;
     margin-bottom: 10px;
 }
+
+#Guidepage {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#Quateinfo {
+    font-family: Courier;
+}
+
+#aboutUs {
+    font-family: Courier;
+    width: 40%;
+
+}
 /*
 =======================
 Class selectors
@@ -269,6 +283,14 @@ Class selectors
 	
 }
 
+.allContent {
+    margin-left: auto;
+    margin-right: auto;
+	width: 70%;
+    text-align: -webkit-center;
+    background: #F3F5E8;
+}
+
 .centerElement {
     margin-left: auto;
     margin-right: auto;
@@ -277,6 +299,7 @@ Class selectors
 .centerText {
     text-align: center;
 }
+
 
 .levelText {
     /*margin-top: 50px;*/
@@ -291,4 +314,105 @@ Class selectors
     font-weight: 900;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.circlenum {
+    color: white;
+    font-size: 34px;
+}
+
+.circle {
+    margin-top: 25px;
+    border-radius: 40px;
+    background-color: #2187db;
+    height: 40px;
+    width: 35pX;
+    text-align: center;
+    display: inline-block;
+}
+
+.contanirtext {
+    text-align: center;
+}
+
+.contanirtext h3 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.aboutcontent {
+    width: 33%;
+    float: left;
+
+}
+
+ul.textinfo > li,b {
+    list-style-type: none;
+}
+
+.content-bg {
+    background-color: #eff0f5;
+    padding: 0 0 400px; 
+}
+
+.content-bg {
+    max-width: 1350px;
+}
+
+.header {
+    text-align: center;
+    position: relative;
+    font-size: 22px;
+    max-width: 1350px;
+}
+
+   
+
+.header .lineeffect {
+    width: 100%;
+    height: 1px;
+    background-color: #cecdd3;
+    top: 50%;
+    position: absolute;
+}
+
+.header .title {
+    background-color: #eff0f5;
+
+}
+
+.header h4 {
+    color: #2187db;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    display: inline-block;
+    line-height: 1em;
+    padding; 0 15px;
+
+}
+
+.enterimage {
+    width: 40%;
+    margin-top: 30px;
+}
+
+.merchandise {
+    width: 55%;
+    margin-top: 20px;
+    
+}
+
+.join {
+    width: 50;
+    margin-top: 60px
+}
+
+.textinfo {
+    font-family: Courier;
+}
+
+.oneoffcontent {
+    margin-top: 30px;
+    width:40%;
+
 }
