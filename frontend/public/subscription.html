@@ -26,28 +26,31 @@
 			</form>
 		</div>
 	</header>
-	    <!-- NAVIGATION BAR CONFIGURATION -->
+	  	    <!-- NAVIGATION BAR CONFIGURATION -->
         <nav class="navimain">
-            <div class="logo">LuckyBox</div>
+        	<img src="img/luckybox_logo.jpg" class="left" id="luckyBoxLogo">
+            <div class="logo">
+	            <p>LuckyBox</p>
+            </div>
             <ul>
                 <li>
-                    <a href="index.html" class="naviitem">Homepage</a> 
+                    <a href="index.html" class="naviitem">Home</a> 
                 </li>
                 
                 <li>
-                    <a href="#" class="naviitem">Offers</a> 
+                    <a href="subscription.html" class="naviitem">Subscribe</a> 
                 </li>
                 
                 <li>
-                    <a href="#" class="naviitem">About Us</a> 
+                    <a href="Userguide.html" class="naviitem">About</a> 
                 </li>
                 
                 <li>
-                    <a href="contactUs.html" class="naviitem">Contact Us</a>
+                    <a href="contactUs.html" class="naviitem">Contact</a>
                 </li>
                 
                 <li>
-                    <a href="mario/mario.html" class="naviitem">Box of the month</a>
+                    <a href="mario/mario.html" class="naviitem">Box of the Month</a>
                 </li>
             </ul>
         </nav>
@@ -69,17 +72,29 @@
 		</div>
 		<div id="subscriptionFormHolder">
 			<p class="centerText clear"> Please choose A subscription.</p></br>
-			<form id ="subscriptionForm" action="" method="post">	
+			<form id ="subscriptionForm" action="" method="post">
+				<div>
+					<label for="name">Name</label>
+					</br>
+					<input type="text" name = "name" placeholder="Your name">
+				</div>
+				<div>
+					<label for="email">Email</label>
+					</br>
+					<input type="email" name = "email" placeholder="your email@email.com">
+				</div>	
 				<div>
 					<label for="subscriptionLevel">Subscription level</label>
+					</br>
 					<select name = "subscriptionLevel">
-						<option value="1month">One Month</option>
-						<option value="3month">Three Months</option>
-						<option value="1year">One Year</option>
+						<option value="1month">One</option>
+						<option value="3month">Two</option>
+						<option value="1year">Three</option>
 					</select>
 				</div>
 				<div>
 					<label for="paymentMethod">Payment Method</label>
+					</br>
 					<select name = "paymentMethod">
 						<option value="visa">Visa</option>
 						<option value="mastercard">Mastercard</option>
@@ -87,7 +102,7 @@
 					</select>
 				</div>
 				<div>
-					<button type="submit" id="form-button">Submit</button>
+					<button type="submit" id="formButton">Submit</button>
 				</div>
 			</form>
 		</div>

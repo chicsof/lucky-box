@@ -154,12 +154,39 @@ Forms
 #login_username {
 	size:"5";
 }
-
-#subscriptionForm {
-    margin: 0 auto;
-    width: 40%;
+#subscriptionFormHolder {
+    padding-bottom: 50px;
+    background: #F3F5E8;
 }
 
+#subscriptionForm {
+    font-family: courier;
+    border: solid 5px #2187DB;
+    margin: 0 auto;
+    width: 200px;
+}
+#subscriptionForm. label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+#formButton {
+    color: #FFF;
+    margin: 10px 10px 10px 20px;
+    display:inline;
+    margin-top: 20px;
+    border: 5px solid #2187DB;
+    padding: 10px;
+    background: #2187DB;
+    width: 150px;
+}
+#formButton:hover {
+    color: #2187DB;
+    border: 5px solid #2187DB;
+    padding: 10px;
+    background: #FFFFFF;
+    width: 150px;
+}
 /*
 =======================
 IDs
@@ -303,8 +330,10 @@ Class selectors
 
 .levelText {
     /*margin-top: 50px;*/
+    margin-top: 50px;
+    margin-bottom: 50px;
     font-family: courier;
-    height: 250px;
+    height: 300px;
     float: left;
     width: 30%;
     border: solid 5px #2187DB;
