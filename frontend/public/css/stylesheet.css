@@ -266,7 +266,7 @@ IDs
 
 #aboutUs {
     font-family: Courier;
-    width: 40%;
+    width: 60%;
 
 }
 /*
@@ -413,6 +413,6 @@ ul.textinfo > li,b {
 
 .oneoffcontent {
     margin-top: 30px;
-    width:40%;
+    width:60%;
 
 }
