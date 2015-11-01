@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lucky Box | Home Page</title>
+	<link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="shortcut icon" href="img/luckybox_logo.jpg">
+	<script type="text/javascript">
+		var slideImage = new Array();
+			slideImage[0] = new Image();
+			slideImage[0].src = "img/rayman_box.jpg";
+			slideImage[1] = new Image();
+			slideImage[1].src = "img/mario_box.jpg";
+			slideImage[2] = new Image();
+			slideImage[2].src = "img/sonic_box.jpg"
+</script>
+    
+</head>
+<body onload="getHeader()">
+	<div id="header">
+
+	</div>
+	    <!-- NAVIGATION BAR CONFIGURATION -->
+        <nav class="navimain">
+        	<img src="img/luckybox_logo.jpg" class="left" id="luckyBoxLogo">
+            <div class="logo">
+	            <p>LuckyBox</p>
+            </div>
+            <ul>
+                <li>
+                    <a href="index.html" class="naviitem">Home</a> 
+                </li>
+                
+                <li>
+                    <a href="subscription.html" class="naviitem">Subscribe</a> 
+                </li>
+                
+                <li>
+                    <a href="Userguide.html" class="naviitem">About</a> 
+                </li>
+                
+                <li>
+                    <a href="contactUs.html" class="naviitem">Contact</a>
+                </li>
+                
+                <li>
+                    <a href="mario/mario.html" class="naviitem">Box of the Month</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- END OF NAVIGATION BAR CONFIGURATION -->
+	<section class="mainContent">
+		<div class="centerText">
+			<p>Welcome</p>
+			<p class="username">test2</p>
+			<p>Your Email is</p>
+			<p class="email">test2@test.com</p>
+		</div>
+	</section>
+	<footer>
+		Contact The Team Member <br>  <a href="mailto:Kieran.barry92@gmail.com">Kieran</a> | <a href="mailto:jhutch@gmail.com">Jay</a> | <a href="mailto:yshane.98@hotmail.com">Shane</a> | <a href="mailto:brandonprice96@gmail.com">Brandon</a>
+	</footer>
+
+	<script type="text/javascript">
+        function getHeader() {
+            var xhttp = new XMLHttpRequest();
+            // set the AJAX call to get the content of the header.html file 
+            // (from the node project's public folder)
+            xhttp.open("GET", "header.html", true);
+            xhttp.onload = function (e) {
+                if (xhttp.readyState === 4) {
+                    if (xhttp.status === 200) {
+                        // get the content of the AJAX response (the header.html) and
+                        // set it in a local variable
+                        var headerHtml = xhttp.responseText;
+                        
+                        // get the footerElement into which the header html will be inserted
+                        var headerElement = document.getElementById('header');
+                        
+                        // insert the html into the header element
+                        headerElement.insertAdjacentHTML('afterbegin', headerHtml);
+                        
+                    } else {
+                        console.error(xhttp.statusText);
+                    };
+                };
+            };
+            xhttp.send();
+        };
+
+        function getHeaderLogin() {
+            var xhttp = new XMLHttpRequest();
+            // set the AJAX call to get the content of the header.html file 
+            // (from the node project's public folder)
+            xhttp.open("GET", "header_login.html", true);
+            xhttp.onload = function (e) {
+                if (xhttp.readyState === 4) {
+                    if (xhttp.status === 200) {
+                        // get the content of the AJAX response (the header.html) and
+                        // set it in a local variable
+                        var headerHtml = xhttp.responseText;
+                        
+                        // get the footerElement into which the header html will be inserted
+                        var headerElement = document.getElementById('header');
+                        
+                        // insert the html into the header element
+                        headerElement.insertAdjacentHTML('afterbegin', headerHtml);
+                        
+                    } else {
+                        console.error(xhttp.statusText);
+                    };
+                };
+            };
+            xhttp.send();
+        };
+    </script>
+</body>
+</html>

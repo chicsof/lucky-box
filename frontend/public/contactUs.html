@@ -3,34 +3,16 @@
 <head>
 	<title>Lucky Box | Contact</title>
 	<link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="shortcut icon" href="img/luckybox_logo.jpg" />
+    <link rel="shortcut icon" href="img/luckybox_logo.jpg">
 </head>
-<body>
-	<header>
-		<a href="http://facebook.com"><img src="img/fb_logo.png" height="20" width="20" class="left"></a>
-		<a href="http://twitter.com"><img src="img/twitter_logo.png" height="20" width="20" class="left"></a>
-		<a href="#"><img src="img/basket.png" height="20" width="20" class="left"></a>
-		<div class="right">
-			<form id ="login_form" action="" method="post">
-					<div class="left">
-						<label for="name">Username:</label>
-						<input type="text" id="login_username" size="10"/>
-					</div>
-					<div class="left">
-						<label for="password">&nbsp Password:</label>
-						<input type="password" id="login_password" size="10"/>
-					</div>
-					<div class="left">
-						<button type="submit" id="login_form_button">Login</button>
-					</div>
-				<p class="right">&nbsp Register.</p>
-			</form>
-		</div>
-	</header>
+<body onload="getHeader()">
+    <div id="header">
+
+    </div>
         <!-- NAVIGATION BAR CONFIGURATION -->
         <nav class="navimain">
             <img src="img/luckybox_logo.jpg" class="left" id="luckyBoxLogo">
-            <div class="logo">
+            <div class="logo welcome">
                 <p>LuckyBox</p>
             </div>
             <ul>
@@ -56,21 +38,21 @@
             </ul>
         </nav>
         <!-- END OF NAVIGATION BAR CONFIGURATION -->
-<img src="img/sonic.png" alt="Sonic" align="right" >
-<img src="img/pokemon.png" alt="pokemon" align="Left" >    
-    <div id="formHolder">
-    <div class= "formBorder">
+<img src="img/sonic.png" alt="Sonic" align="right">
+<img src="img/pokemon.png" alt="pokemon" align="Left">
+    <div id="formHolder" class="welcome">
+    <div class="formBorder welcome">
     <h1> Contact Us</h1>
-         <form: action= "" method= "get" id = "MyForm">
+         <form action="/contact" method="GET" id="MyForm">
              First Name <br>
-            <input type = "text" name = "firstname"> 
+            <input type="text" name="firstname" id="fistName"> 
              <br>
              Last Name <br>
-            <input type = "text" name = "Lastname"> <br>
+            <input type="text" name="lastname" id="lastName"> <br>
             Email <br>
-             <input type = "text" name = "Email"> <br>
+             <input type="text" name="Email" id="email"> <br>
             Username <br>
-             <input type = "text" name = "Username"> <br> <br>
+             <input type="text" name="Username" id="userName"> <br> <br>
              Who do you want to contact? <br> <br>
             <select>
                 <option>-- Please Select -- </option>
@@ -80,13 +62,39 @@
                 <option value="brandonprice96@gmail.com">Brandon</option>
             </select> <br> <br>
             Enquiry <br>
-           <textarea rows = "5" cols = "30" ></textarea> 
+           <textarea rows="5" cols="30" id="message" name="message"></textarea> 
            <br>
-           <button type =  "Submit"> Submit </button>  
+           <button type="submit"> Submit </button>  
          </form>  
     </div>
-</div>    
-    
+</div>
 <footer><h4>Contact The Team Member </h4> <a href="mailto:Kieran.barry92@gmail.com">Kieran</a> | <a href="mailto:jhutch@gmail.com">Jay</a> | <a href="mailto:yshane.98@hotmail.com">Shane</a> | <a href="mailto:brandonprice96@gmail.com">Brandon</a> </footer>
 </body>
+<script>
+        function getHeader() {
+            var xhttp = new XMLHttpRequest();
+            // set the AJAX call to get the content of the header.html file 
+            // (from the node project's public folder)
+            xhttp.open("GET", "header.html", true);
+            xhttp.onload = function (e) {
+                if (xhttp.readyState === 4) {
+                    if (xhttp.status === 200) {
+                        // get the content of the AJAX response (the header.html) and
+                        // set it in a local variable
+                        var headerHtml = xhttp.responseText;
+                        
+                        // get the footerElement into which the header html will be inserted
+                        var headerElement = document.getElementById('header');
+                        
+                        // insert the html into the header element
+                        headerElement.insertAdjacentHTML('afterbegin', headerHtml);
+                        
+                    } else {
+                        console.error(xhttp.statusText);
+                    };
+                };
+            };
+            xhttp.send();
+        };
+    </script>
 </html>

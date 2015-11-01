@@ -170,6 +170,7 @@ Forms
     width: 100px;
     text-align: left;
 }
+
 #formButton {
     color: #FFF;
     margin: 10px 10px 10px 20px;
@@ -187,6 +188,25 @@ Forms
     background: #FFFFFF;
     width: 150px;
 }
+
+#registerFormHolder {
+    padding-bottom: 50px;
+    background: #F3F5E8;
+}
+
+#registerForm {
+    font-family: courier;
+    border: solid 5px #2187DB;
+    margin: 0 auto;
+    width: 200px;
+}
+
+#registerForm. label {
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+}
+
 /*
 =======================
 IDs
